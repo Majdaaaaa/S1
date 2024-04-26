@@ -1,0 +1,127 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica-Oblique;
+\f3\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid3\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11720\viewh9440\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 	
+\fs40 \ul LES ENTR\'c9ES/SORTIES \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f1\b\fs26 \cf0 \ulnone {\listtext	\uc0\u8226 	} \ul Les redirection: 
+\f0\b0 \cf2 \expnd0\expndtw0\kerning0
+\ulnone Une commande UNIX est une \'ab bo\'eete noire \'bb \'e0 laquelle on peut fournir, en plus de ses arguments, un fichier logique nomm\'e9 
+\f2\i entr\'e9e standard 
+\f0\i0 et qui renvoie deux types de r\'e9ponses \'e9ventuelles sur des fichiers logiques appel\'e9s respectivement 
+\f2\i sortie standard 
+\f0\i0 et 
+\f2\i sortie erreur standard
+\f0\i0 , comme illustr\'e9 ci-dessous. On pourra aussi parler de 
+\f2\i flots 
+\f0\i0 (ou 
+\f2\i flux
+\f0\i0 ) d\'92entr\'e9e et de sortie. \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}l\'92entr\'e9e standard est saisis au clavier et les sortes (standard/erreur) s\'92affichent a l\'92ecran
+\f3 \expnd0\expndtw0\kerning0
+\
+\ls1\ilvl1
+\f0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+Quelques exemples :\
+\pard\tx1660\tx2160\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls1\ilvl2\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+\'ab cat \'bb \'e9crit sur la sortie standard ce qu\'92elle re\'e7oit sur l\'92entr\'e9e standard. \
+\ls1\ilvl2\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+\'ab date \'bb ne prend rien sur le flot d\'92entr\'e9e et \'e9crit sur le flot de sortie.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+\'ab cd \'bb ne prend rien en entr\'e9e et ne renvoie rien en sortie. \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b \ul Les op\'e9rateurs > ,>| , >> :\ulnone \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f0\b0 \cf0 {\listtext	\uc0\u8259 	}> 
+\f1\b : 
+\f0\b0 affecte un contenu a un fichier (ex: cat fichier  > fichier1 affecte ce que affiche cette commande au fichier1)\
+{\listtext	\uc0\u8259 	}>| : ajouter du contenu a un fichier existant en \'e9crasant son contenu pr\'e9c\'e9dent \
+{\listtext	\uc0\u8259 	}>> : rajoute le contenu d\'92une commande a un fichier existant sans \'e9craser le contenu pr\'e9c\'e9dent \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b \ul Les op\'e9rateurs 2>,2>>: 
+\f2\i\b0 \ulnone redirection des messages d\'92erreurs 
+\f1\i0\b \ul \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f0\b0 \cf0 \ulnone {\listtext	\uc0\u8259 	}2> : redirige le message d\'92erreur vers un fichier existant en \'e9crasant le contenu d\'e9j\'e0 pr\'e9sents (ex: cat gabuzo 2> zugabu)\
+{\listtext	\uc0\u8259 	}2>>: rajoute le message d\'92erreur a un fichier sans \'e9craser son contenu \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b \ul L\'92operateur <:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f0\b0 \cf0 \ulnone {\listtext	\uc0\u8259 	}cmd > fichier  : sert a passer a la commande le contenu du fichier (en argument un peu)\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b \ul La commande tee:
+\f0\b0 \ulnone \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}marche sans argument, \cf2 \expnd0\expndtw0\kerning0
+permet de 
+\f1\b dupliquer 
+\f0\b0 le flot de sortie, qui continue d\'92\'eatre affich\'e9 dans le terminal, mais est \'e9galement recopi\'e9 dans un ou plusieurs fichiers dont les r\'e9f\'e9rences sont pass\'e9es en param\'e8tres \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b \ul Syntaxe shell: 
+\f0\b0 \ulnone les variables \
+\pard\tx1660\tx2160\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls1\ilvl2\cf0 {\listtext	\uc0\u8259 	}
+\f2\i variables d\'92environnement:
+\f0\i0  \cf2 \expnd0\expndtw0\kerning0
+Une liste des variables d\'92environnement d\'e9finies est accessible en invoquant la commande \'ab env \'bb.  ex: LC_COLLATE, PATH ou LANG \
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}
+\f2\i pour d\'e9finir une variable ou la modifier:
+\f0\i0  var=toto (faut en gros faire var = quelque chose, var \'e9tant le nom de la variable et quelque chose ce qu\'92on veut mettre dedans) \
+{\listtext	\uc0\u8259 	}
+\f2\i pour regarder la variable: 
+\f0\i0 on fait echo $toto \
+{\listtext	\uc0\u8259 	}
+\f2\i pour faire une variable une variable d\'92environnement:
+\f0\i0  on fait:export var=toto\
+{\listtext	\uc0\u8259 	}on peut d\'e9finir une variable et l\'92utiliser par la suite dans des commandes tel que echo \
+{\listtext	\uc0\u8259 	}si on met une variable entre \'91 \'91 echo nous donne pas la valeur de la variables mais le nom de la var (ex:echo 'Ont faict le sault par la $WINDOW': Ont faict le sault par la $WINDOW )\
+{\listtext	\uc0\u8259 	}mais si on le met entre \'91\'92 \'91\'92 echo prends en compte les valeurs des variables (ex: echo "Mon beau $SPRING & mon est\'e9": Mon beau printemps & mon est\'e9)\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b \ul Les fichiers speciaux:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f0\b0 \cf2 \ulnone {\listtext	\uc0\u8259 	}
+\f2\i \expnd0\expndtw0\kerning0
+/dev/null : 
+\f0\i0 est un fichier sp\'e9cial qui se comporte comme un \'ab puits sans fond \'bb : on peut \'e9crire dedans tant qu\'92on le veut et les donn\'e9es sont alors perdues. Il peut par exemple servir \'e0 jeter la sortie erreur quand on n\'92en a pas besoin. 
+\f3\fs24 \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f0\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\cf2 \expnd0\expndtw0\kerning0
+Sous UNIX, les p\'e9riph\'e9riques sont consid\'e9r\'e9s comme des fichiers sp\'e9ciaux, ac- cessibles par des liens situ\'e9s dans la sous-arborescence /dev du syst\'e8me de fichiers. Il existe deux types de tels fichiers sp\'e9ciaux : \'ab caract\'e8re \'bb \'91c\'91 (terminaux etc.) ou \'ab bloc \'bb \'91b\'91 (disques etc.). Ces termes d\'e9signent la mani\'e8re de traiter les lectures et les \'e9critures : soit caract\'e8re par caract\'e8re, soit par blocs. 
+\f3\fs24 \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f0\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b \ul La commande cat:
+\f0\b0 \ulnone  sans argument, recopie sur la sortie ce qui arrive dans le flot d\'92entr\'e9e \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}cat -n: num\'e9rot\'e9 les ligne de sortie\
+{\listtext	\uc0\u8259 	}cat -s:	remplace les lignes blanches cons\'e9cutives par une seule ligne blanche \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b \ul Les commandes head et tail:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f0\b0 \cf0 \ulnone {\listtext	\uc0\u8259 	}\cf2 \expnd0\expndtw0\kerning0
+lisent sur leur entr\'e9e standard et conservent les premi\'e8res lignes (pour \'ab head \'bb) et derni\'e8res (pour \'ab tail \'bb). Le nombre de lignes conserv\'e9es est 10 par d\'e9faut, ou l\'92entier pass\'e9 en argument apr\'e8s l\'92option \'ab -n \'bb(marche pour les 2 commandes)\cf0 \kerning1\expnd0\expndtw0 \
+}

@@ -1,0 +1,36 @@
+Majda BENMALEK
+EXERCICE 1:
+2. a. chmod go-w,o-w titi
+   b. chmod u-w,g-x,o-x titi
+   c. chmod a-x titi
+   d. chmod u-r,o-r titi
+   e. chmod u+w,u+x,g+x,o+r titi 
+   f. chmod u-x,o+x titi
+EXERCIE 2:
+chmod 444 toto
+chmod 735 tutu
+chmod 561 toto
+chmod 215 tutu
+chmod 644 toto
+chmod 310 tutu
+EXRECICE 3:
+1.chmod 544 TP4/B/A/toto
+2.chmod 624 TP4/B/A/tutu 
+3.chmod 216 TP4/B/B/toto 
+4.chmod 655 TP4/B/B/tutu 
+5.chmod 254 TP4/B/C/*
+6.chmod a+x TP4/B/*/tutu
+7.chmod 640 TP4/B/*/toto
+EXERCICE4:
+1.1ere execution: on arrive a ouvrir et lire toto mais pas tutu, 2eme execution: on peut rien faire
+2.
+EXERCICE 5:
+1. sur A: drwx sur B: dr x sur C: drw sur D: d wx   avoir le droit de lire un repertoire nous donne juste son type (dossier, fichier..)
+2.on a pas la permission de le renommer,ni de le supprimer,ni de cree un fichier dans B, on a le droit de le modifier
+3.a. echo 'Lingots' > Gringotts/coffre 
+  b. touch Gringotts/Caveaux/cav1 Gringotts/Caveaux/cav2
+  c.
+4. avoir le droit d'execution sur un repertoir signifie qu'on peut agir sur lui 
+5.oui on peut consulter ses droits, on peut voir son contenu, pour tatou: oui droits, oui son contenu    droit de lecture et execution: on peut l'afficher et voir ses droit 
+6.  on donne juste le droit d'execution
+

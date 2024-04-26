@@ -1,0 +1,14 @@
+exo1:
+1.
+2. kill -SIGKILL son pid
+3.tty pour avoir l'adresse de l'autre terminal 
+bash toto.sh > adresse autre terminal 
+
+exo2:
+1. less ps -ax
+2.ps ax | tail -n 395
+3. ls -R | grep ".java" | wc
+
+
+exo3:
+

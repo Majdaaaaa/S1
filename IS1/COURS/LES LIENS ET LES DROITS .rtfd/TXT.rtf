@@ -1,0 +1,88 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue-Italic;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue-Bold;\f4\fnil\fcharset0 HelveticaNeue;\f5\fnil\fcharset0 Monaco;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid102\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid103\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid104\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2880\lin2880 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25100\viewh12920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs40 \cf0 \ul \ulc0 LES LIENS ET LES DROITS \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\i\fs22\fsmilli11143 \cf0 \ulnone Un syst\'e8me UNIX n\'92identifie pas un fichier par son nom, mais par une structure appel\'e9e i-n\'9cud (inode en anglais pour index node). Cet i-n\'9cud contient toutes les caract\'e9ristiques concernant le fichier correspondant : son type (fichier \'ab ordinaire \'bb ou r\'e9pertoire), l\'92adresse du ou des emplacement(s) sur le disque o\'f9 se trouve son contenu, les droits accord\'e9s, la date de derni\'e8re modification, etc. Les i-n\'9cuds sont stock\'e9s dans une table, et identifi\'e9s dans cette table par un num\'e9ro. \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 {{\NeXTGraphic page1image41848000.png \width1117 \height13 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+Un r\'e9pertoire est un fichier qui contient une liste de couples (nom, num\'e9ro d\'92i-n\'9cud). \uc0\u8232 Lorsqu\'92on dit qu\'92un fichier fic \'ab se trouve \'bb dans un r\'e9pertoire , cela signifie en fait que rep contient un couple associant le t nom fic au num\'e9ro d\'92i-n\'9cud d\'92un fichier. On appelle cela un lien de nom fic vers cet i-n\'9cud. \
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f2\i0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f3\b\fs26 ln
+\f4\b0  : permet de cr\'e9e un nouveau nom vers un i-noeud d\'e9j\'e0 existant (ln ancienfic nouveaufic)\
+\ls1\ilvl0
+\f2\fs18 {\listtext	\uc0\u8226 	}
+\f3\b\fs26 echo
+\f4\b0  : modifie le contenu d\'92un fichier \'e9cho nouveau_contenu> fichier  \
+\ls1\ilvl0
+\f2\fs18 {\listtext	\uc0\u8226 	}
+\f3\b\fs26 id 
+\f4\b0 : indique les num d\'92utilisateurs, nom, num de groupe principal ainsi que la liste des groupe auxquels l\'92utilisateur appartiens \
+{\listtext	\uc0\u8226 	}Les droits et comment ils sont pr\'e9sent\'e9s:\
+\pard\tx940\tx1440\pardeftab560\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8226 	} de la liste des utilisateurs concern\'e9s, par concat\'e9nation des symboles u pour le propri\'e9taire (
+\f1\i user
+\f4\i0 ), g pour le groupe (
+\f1\i group
+\f4\i0 ), o pour les autres (
+\f1\i other
+\f4\i0 ), ou a pour tous (
+\f1\i all
+\f4\i0 ) ; \
+{\listtext	\uc0\u8226 	}d\'92un symbole pour indiquer le type de modification : = pour affecter pr\'e9cis\'e9ment des droits, + pour en ajouter, - pour en enlever ; \
+{\listtext	\uc0\u8226 	}de la liste des droits concern\'e9s, choisis parmi r, w ou x. (r:read, x:execute, w:write)\
+\pard\tx566\pardeftab560\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0
+\f2\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f3\b\fs26 chmod
+\f4\b0  : pour changer les droits qu\'92on a sur un fichier \
+\pard\tx1660\tx2160\pardeftab560\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls2\ilvl2
+\f2\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f4\fs26 pour modifier plusieurs droits au m\'eame temps mettre des virgules exemple: chmod u-w,g-x,o-x titi.\
+\ls2\ilvl2
+\f2\fs18 {\listtext	\uc0\u8226 	}
+\f3\b\fs26 la notation octale: \
+\pard\tx2380\tx2880\pardeftab560\li2880\fi-2880\pardirnatural\partightenfactor0
+\ls2\ilvl3
+\f2\b0\fs18 \cf0 {\listtext	
+\f5 \uc0\u8259 
+\f2 	}
+\f4\fs26 \'e9crire les droits sous la forme d\'92un nombre en base 8,  on le repr\'e9sente en binaire sur 8 bits avec 1 si on poss\'e8de ce droit et 0 pour l\'92inverse, r0w0x0 sont les bits repr\'e9sente les droits de user \
+\ls2\ilvl3
+\f2\fs18 {\listtext	
+\f5 \uc0\u8259 
+\f2 	}
+\f4\fs26 on peut modifier les droits d\'92un fichier/ repertoire  gr\'e2ce a sa r\'e9f\'e9rence absolue \
+\pard\tx940\tx1440\pardeftab560\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls2\ilvl1
+\f2\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f3\b\fs26 Les droits sur les r\'e9pertoires:\
+\pard\tx1660\tx2160\pardeftab560\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls2\ilvl2
+\f2\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f4\fs26 r : le droit de lire un r\'e9pertoire nous donne acc\'e8s a son contenu, ses fichiers et repertoire  donc l\'92arborescence \
+\ls2\ilvl2
+\f2\fs18 {\listtext	\uc0\u8226 	}
+\f4\fs26 w: le droit d\'92\'e9criture sur un repertoire  nous donne la possibilit\'e9 de modifier l\'92arborescence donc supprimer ou ajouter des fichiers/repertoires\
+\ls2\ilvl2
+\f2\fs18 {\listtext	\uc0\u8226 	}
+\f4\fs26 x: le droit d\'92ex\'e9cution d\'92un repertoire  nous donne acc\'e8s a ses sous-r\'e9pertoires, pour avoir le droits de modifier les sous r\'e9pertoires du repertoire p\'e8re \
+}

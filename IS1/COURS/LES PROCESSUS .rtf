@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue-Bold;\f2\fnil\fcharset0 HelveticaNeue;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 Monaco;\f5\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid102\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid103\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid104\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2880\lin2880 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13160\viewh12920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs40 \cf0 \ul \ulc0 LES PROCESSUS \ulnone \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f1\b\fs26 \cf0 Les processus: 
+\f2\b0 c\'92est un objet dynamique qui correspond a l\'92ex\'e9cution d\'92un programme. Chaque processus poss\'e8de ses propres caract\'e9ristiques :\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl1
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f2\fs26 son num\'e9ro d\'92identification(PID) \
+\ls2\ilvl1
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 le num d\'92identification de son processus parent(PPID)\
+\ls2\ilvl1
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 les propri\'e9taires\
+\ls2\ilvl1
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 le terminal dont il d\'e9pends (si il existe)\
+\ls2\ilvl1
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 le repertoire  courant \
+\ls2\ilvl1
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 son temps d\'92ex\'e9cution \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f2\fs26 si on lance un programme qui ne s\'92arr\'eate pas, on fait ctrl-C, mais aussi on peut en ex\'e9cutant le programme directement mette & a la fin de la ligne de commandes pour nous permettre de directement reprendre la main \
+\ls2\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f1\b\fs26 Afficher les info de base d\'92un processus : \
+\pard\tx940\tx1440\pardeftab560\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls2\ilvl1
+\f2\b0 \cf0 {\listtext	\uc0\u8226 	}cat /proc/***/stat (*: d\'e9signant un caract\'e8re quelconque)\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f1\b\fs26 La commande ps: 
+\f2\b0 affiche la liste des processus de l\'92utilisateur courant rattach\'e9s au terminal courant \
+\pard\tx1660\tx2160\pardeftab560\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls2\ilvl2
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f2\fs26 ps -u user: (user \'e9tant le nom de l\'92utilisateur en cours) permet d\'92afficher tous les processus de l\'92utilisateur y compris ceux qui ne sont pas rattach\'e9s a un terminal \
+\ls2\ilvl2
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 ps -a : permet d\'92afficher tout les processus rattach\'e9s a des terminaux quelconque \
+\ls2\ilvl2
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 la commande ps affiche aussi des info sur les processus tel que leur PID leur TTY(num de port du terminal), TIME (le temps utilis\'e9 par le processus), CMD(le nom de la commande qu\'92utilise le processus)\
+\ls2\ilvl2
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 ps -A: affiche tout les processus m\'eame ceux qui vous appartiennent pas et qui ne sont pas rattach\'e9s a des terminaux \
+\ls2\ilvl2
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 ps -p PID: (pis \'e9tant le num d\'92identification d\'92un processus) affiche uniquement le processus passer en argument\
+\ls2\ilvl2
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f2\fs26 pstree PID : affiche l\'92arbre g\'e9n\'e9alogique d\'92un processus passer en argument \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f1\b\fs26 La commande kill: 
+\f2\b0  permet d\'92envoyer des signaux a des processus, elle est de la forme : kill -signal PID \
+\pard\tx1660\tx2160\pardeftab560\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls2\ilvl2
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f2\fs26 les signales: kill -L (pour avoir la liste des signaux)	\
+\pard\tx2380\tx2880\pardeftab560\li2880\fi-2880\pardirnatural\partightenfactor0
+\ls2\ilvl3\cf0 {\listtext	\uc0\u8259 	}SIGTERM: signal envoyer a un processus pour provoquer sa fin, 15\
+\pard\tx2380\tx2880\pardeftab560\li2880\fi-2880\pardirnatural\partightenfactor0
+\ls2\ilvl3
+\f3\fs18 \cf0 {\listtext	
+\f4 \uc0\u8259 
+\f3 	}
+\f2\fs26 SIGKILL: le m\'eame que sigterm mais pour une fin imm\'e9diate, 9\
+\ls2\ilvl3
+\f3\fs18 {\listtext	
+\f4 \uc0\u8259 
+\f3 	}
+\f2\fs26 SIGINT: interromps le processus, 2\
+\ls2\ilvl3
+\f3\fs18 {\listtext	
+\f4 \uc0\u8259 
+\f3 	}
+\f2\fs26 SIGSTOP: suspend le processus,19\
+\ls2\ilvl3
+\f3\fs18 {\listtext	
+\f4 \uc0\u8259 
+\f3 	}
+\f2\fs26 SGCONT:reprends un processus suspendu, 18\
+\ls2\ilvl3
+\f3\fs18 {\listtext	
+\f4 \uc0\u8259 
+\f3 	}
+\f2\fs26 SIGHUP:un signal de r\'e9initialisation pour un processus appartenant a un terminal ferm\'e9\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\pardeftab560\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b La commande sleep: 
+\f2\b0 se contente d\'92attendre le temps (en secondes) pass\'e9 en param\'e8tre (ex: sleep 1000)\
+{\listtext	\uc0\u8226 	}
+\f1\b La commande nohup: 
+\f2\b0 protege un processus contre le signal SIGHUP 
+\f0 \cf2 \expnd0\expndtw0\kerning0
+par le syst\'e8me aux processus d\'e9pendant d\'92un terminal lorsque celui-ci est ferm\'e9, ce qui par d\'e9faut provoque leur terminaison).
+\f5\fs32  
+\fs24 \
+\ls2\ilvl0
+\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b Les taches(jobs):  
+\f2\b0 Chaque t\'e2che, correspondant \'e0 un groupe de processus, est identifi\'e9e de mani\'e8re interne au shell, et peut se trouver dans trois \'e9tats distincts : \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\pardeftab560\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls2\ilvl1\cf0 {\listtext	\uc0\u8226 	} \ul en avant-plan (foreground) \ulnone : elle peut lire et \'e9crire dans le terminal ; au plus une t\'e2che peut avoir cet \'e9tat (par d\'e9faut, le shell, qui r\'e9agit aux commandes saisies) ; \
+{\listtext	\uc0\u8226 	}\ul en arri\'e8re-plan (background) \ulnone : elle s\'92ex\'e9cute sans lire ni \'e9crire dans le terminal ;\
+{\listtext	\uc0\u8226 	} \ul stopp\'e9 ou suspendu\ulnone  : la t\'e2che est en sommeil, son ex\'e9cution est interrompue. \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\pardeftab560\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}
+\f1\b La commande jobs:
+\f2\b0  
+\f0 \cf2 \expnd0\expndtw0\kerning0
+affiche la liste des jobs du shell courant, tri\'e9e par num\'e9ro, ainsi que leur \'e9tat actuel. Un signe "+" marque le job courant, un "-" le pr\'e9c\'e9dent. 
+\f5\fs24 \
+\ls2\ilvl0
+\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f0 \cf2 \expnd0\expndtw0\kerning0
+Deux commandes suppl\'e9mentaires permettent de ramener un job \'e0 l\'92avant- plan (\'ab fg \'bb) ou de faire reprendre son ex\'e9cution \'e0 l\'92arri\'e8re-plan \'e0 un job in- terrompu (\'ab bg \'bb). Sans argument, ces commandes s\'92appliquent au job courant (cf. remarques pr\'e9c\'e9dentes). Elles peuvent aussi \'eatre suivies d\'92un argument de la forme %n, o\'f9 n est un num\'e9ro de job. \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\pardeftab560\pardirnatural\partightenfactor0
+
+\f2 \cf0 \kerning1\expnd0\expndtw0 \
+}

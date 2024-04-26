@@ -1,0 +1,36 @@
+exo1:
+2. > affecter un contenu a un fichier 
+3. >| ajoute du contenu en ecrasant le contenu precedant
+4.>> rajoute sans ecraser 
+
+exo2:
+1.grace a cat 1> gabuzo un fichier gabuzo a ete cree 
+2.2> : le message d'erreur est ecrit dans le fichier gabuzo en ecrasant ce que contenait deja le fichier, 2>>: ca rajoute sans ecraser l'avant 
+3.le programme dont le message d'erreur a ete redirigé est le shell 
+exo3:
+1.les 2 fichiers sont identiques. Nain < Atchoum Dormeur Grincheux Joyeux Prof Simplet Timide
+Exo4:
+1./home/benmalekm
+2.USER :benmalekm, SHELL:/bin/bash, TERM: xterm-256color, PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, PWD: /home/benmalekm, OLDPWD:/home/benmalekm/Bureau, changement de PWD et OLDPWD:PWD: /home/benmalekm/Bureau/IS1/TP7, OLDPWD: /home/benmalek 
+3.echo oui, ls non , /bin/ls oui 
+4.echo $PATH : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+5.my-ls nous donne la liste de tout ce qu'il ya sur notre profils 
+Exo5:
+1.echo "Plus ne suis ce que i 'ay esté": Plus ne suis ce que i 'ay esté
+sans les guillemet ca met juste plein de > ou on peut ecrire 
+2.echo 'Et ne le sçaurois iamais estre': Et ne le sçaurois iamais estre
+echo Et ne le sçaurois iamais estre: Et ne le sçaurois iamais estre
+3.echo "Mon beau $SPRING & mon esté": Mon beau printemps & mon esté
+4.echo 'Ont faict le sault par la $WINDOW': Ont faict le sault par la $WINDOW 
+''= affiche juste ce qu'il ya entre les guillement 
+""=affiche ce qu'il ya entre les guillemet en prenant en compte les var ect..
+5.echo "J'ai vu $SPRING par la $WINDOW"
+Exo6:
+1. cat */*[A-Z]* 2> erreur
+2.
+
+
+
+
+
+

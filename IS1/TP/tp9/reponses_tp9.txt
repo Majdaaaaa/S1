@@ -1,0 +1,20 @@
+exo1:
+1. head -n .. fic : pour affichier le nombre de ligne qu'on veut en partant du haut (.. etant un nombre)
+2.a.grep 'MAIRIE' ratp.csv
+   .grep -c MAIRIE ratp.csv
+   .grep MAIRIE ratp.csv | wc -l
+  b.grep Paris ratp.csv
+  c.grep -v Paris ratp.csv
+  d.grep \;PORTE ratp.csv
+  e.grep 12$ ratp.csv
+  f.grep \;12\; ratp.csv
+  g.grep [Ss]ceaux ratp.csv
+  h.grep [MétroRER]\;M ratp.csv
+  i.grep "^[^;]*\;[^;]*[0-9]" ratp.csv
+exo2:
+1.a.cut -d ';' -f 9 ratp.csv
+  b.cut -d ';' -f 9 ratp.csv | sort -d
+  c. 
+  
+
+   
